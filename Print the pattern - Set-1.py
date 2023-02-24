@@ -6,4 +6,4 @@ def printPat(n):
         res+="$"
     print(res)
 
-printPat(5)
+printPat(5) 
