@@ -1,12 +1,12 @@
 class Solution:
-	def timeToWord(self, H, M):
-		time_list = [
-		   "twelve", "one", "two", "three", "four",
-           "five", "six", "seven", "eight", "nine",
-           "ten", "eleven", "twelve", "thirteen", "fourteen", 
-           "fifteen", "sixteen", "seventeen", "eighteen", "nineteen",
-           "twenty", "twenty one", "twenty two", "twenty three", "twenty four", 
-           "twenty five", "twenty six", "twenty seven", "twenty eight", "twenty nine"]
+    def timeToWord(self, H, M):
+        time_list = [
+            "twelve", "one", "two", "three", "four",
+            "five", "six", "seven", "eight", "nine",
+            "ten", "eleven", "twelve", "thirteen", "fourteen", 
+            "fifteen", "sixteen", "seventeen", "eighteen", "nineteen",
+            "twenty", "twenty one", "twenty two", "twenty three", "twenty four", 
+            "twenty five", "twenty six", "twenty seven", "twenty eight", "twenty nine"]
 
         if M==0: return(str(time_list[H])+" o' clock")
         elif M==1: return(str(time_list[M])+ " minute past "+str(time_list[H]))
